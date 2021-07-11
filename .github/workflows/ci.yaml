@@ -35,6 +35,7 @@ jobs:
       - name: Package Windows
         if: matrix.os == 'windows-latest'
         run: |
+          New-Item -ItemType Directory -Path "package2333"
           Copy-Item -Path "target\release\*" -Destination "package2333" -Recurse
           7z a release.zip ./package2333/*
       - name: Upload Windows
