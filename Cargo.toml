@@ -15,7 +15,7 @@ include = ["LICENSE", "Cargo.toml", "src/**/*.rs"]
 resolver = "2"
 members = [
     ".", "ast", "bytecode", "common", "compiler", "compiler/porcelain",
-    "derive", "jit", "parser", "vm", "vm/pylib-crate", "wasm/lib",
+    "derive", "jit", "parser", "vm", "vm/pylib-crate", 
 ]
 
 [features]
