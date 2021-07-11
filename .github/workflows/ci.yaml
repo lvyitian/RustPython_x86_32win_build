@@ -7,7 +7,7 @@ on:
 name: CI
 
 env:
-  CARGO_ARGS: --features ssl,jit --target i686-pc-windows-msvc --workspace
+  CARGO_ARGS: --features ssl,jit --target i686-pc-windows-msvc
 jobs:
   build:
     name: build
